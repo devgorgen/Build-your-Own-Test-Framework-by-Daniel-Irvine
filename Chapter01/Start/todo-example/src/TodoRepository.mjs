@@ -5,7 +5,7 @@ export class TodoRepository {
 
   add(todo) {
     if (!todo || !todo.title || todo.title === "") {
-      throw new Error("title cannot be blank");
+      throw new Error("123title cannot be blank");
     }
     if (this.matchingTodo(todo)) {
       throw new Error("todo already exists");

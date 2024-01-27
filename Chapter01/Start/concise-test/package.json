@@ -1,0 +1,16 @@
+{
+  "name": "concise-test",
+  "version": "1.0.0",
+  "description": "An example codebase that's used in the book _Build Your Own Test Framework_. This is one of two packages that are used in the book. Please see the repository's top-level [README.md](../../../README.md) file for instructions on how to use this repository.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": "./src/cli.mjs",
+  "exports": {
+    ".": "./src/runner.mjs"
+  }
+}
